@@ -8,6 +8,7 @@ public class Character : ScriptableObject
     //what data is needed
     public string characterName;
     public Sprite characterSprite;
+
     [TextArea]
     public string characterDescription;
 }
