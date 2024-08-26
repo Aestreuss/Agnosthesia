@@ -17,7 +17,8 @@ public class NPC : MonoBehaviour
 
     PlayerMovement playerMovement; //references the player script
 
-
+    public GameObject interactGUI;
+    public bool interactClose;
 
     void Update()
     {
@@ -42,6 +43,15 @@ public class NPC : MonoBehaviour
         if(dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
+        }
+
+        if (interactClose)
+        {
+            interactGUI.SetActive(true);
+        }
+        else
+        {
+            interactGUI.SetActive(false);
         }
     }
 
@@ -87,6 +97,7 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            interactClose = true;
             playerIsClose = true;
             playerMovement = other.GetComponent<PlayerMovement>(); //grab ref of player movement upon coming closer
         }
@@ -96,9 +107,11 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            interactClose = false;
             playerIsClose = false;
             playerMovement = null; 
             zeroText();
         }
     }
+
 }

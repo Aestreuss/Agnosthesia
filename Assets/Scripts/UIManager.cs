@@ -13,4 +13,6 @@ public class UIManager : MonoBehaviour
         soulAmount += 1;
         soulAmount_Text.text = "Souls: " + soulsAmount.ToString();       
     }
+
+
 }
