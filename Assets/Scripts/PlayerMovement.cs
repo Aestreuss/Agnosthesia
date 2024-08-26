@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,25 +12,23 @@ public class PlayerMovement : MonoBehaviour
     float vertical;
 
     public bool canMove = true;
+    
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody> ();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (canMove)
         {
             horizontal = Input.GetAxis("Horizontal");
             vertical = Input.GetAxis("Vertical");
+            transform.position += new Vector3(horizontal, vertical, 0) * Time.deltaTime * speed;
         }
 
     }
 
-    private void FixedUpdate()
-    {
-        if (canMove)
-            transform.position += new Vector3(horizontal, vertical, 0) * Time.deltaTime * speed;
-    }
+
 }

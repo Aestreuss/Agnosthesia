@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,5 +15,11 @@ public class UIManager : MonoBehaviour
         soulAmount_Text.text = "Souls: " + soulsAmount.ToString();       
     }
 
-
+    void Update()
+    {
+        if (soulAmount == 13)
+        {
+            SceneManager.LoadScene("End");
+        }
+    }
 }
