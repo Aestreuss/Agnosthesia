@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6408977184609ba4c91c5e1aca5bdf93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCharacter: {fileID: 11400000, guid: 53c03de6bed46fd4caf197684adeebcc, type: 2}
+  currentCharacter: {fileID: 11400000, guid: c8ba8cec6c885834e8ff57ebea09b144, type: 2}
   characterImage: {fileID: 233905477}
   characterNameText: {fileID: 1398922300}
   characterDescriptionText: {fileID: 386978401}
