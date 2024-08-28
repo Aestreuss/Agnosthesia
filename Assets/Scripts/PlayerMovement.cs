@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     float vertical;
 
     public bool canMove = true;
-    
+
 
     private void Awake()
     {
