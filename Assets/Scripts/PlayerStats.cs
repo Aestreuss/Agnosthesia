@@ -6,7 +6,7 @@ public class PlayerStats : MonoBehaviour
 {
     public int soulsCollected;
     public UIManager uiManager;
-    public int keyCollected;
+    public bool hasKey;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,8 +21,8 @@ public class PlayerStats : MonoBehaviour
         {
             Debug.Log("key collide");
 
-            keyCollected += 1;
-            uiManager.KeyFound(keyCollected);
+            hasKey = true;
+            uiManager.KeyFound(hasKey);
             Destroy(collision.gameObject);
         }
     }

@@ -10,7 +10,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI soulAmount_Text;
     public int soulAmount;
     public GameObject keyImage;
-    public int key;
+    public bool key;
 
     public void UpdateSoulAmount(int soulsAmount)
     {
@@ -18,9 +18,9 @@ public class UIManager : MonoBehaviour
         soulAmount_Text.text = "Souls: " + soulsAmount.ToString();       
     }
 
-    public void KeyFound(int keyCollected)
+    public void KeyFound(bool keyCollected)
     {
-        key += 1;
+        key = true;
         keyImage.SetActive(true);
     }
 
