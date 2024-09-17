@@ -23,6 +23,10 @@ public class GiveSoul : MonoBehaviour
     public GameObject interactGUI;
     public bool interactClose;
 
+    [Space]
+    public bool isKeyNPC;
+    public bool hasGivenSoul;
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) && playerIsClose)
@@ -99,10 +103,18 @@ public class GiveSoul : MonoBehaviour
         {
             zeroText();
             playerMovement.canMove = true; //allows player to move again
+            GiveSoulFromDialogue();
         }
     }
 
-
+    public void GiveSoulFromDialogue()
+    {
+        if (playerStats.hasKey && isKeyNPC && !hasGivenSoul)
+        {
+            playerStats.uiManager.UpdateSoulAmount(1);
+            hasGivenSoul = true;
+        }
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
