@@ -111,7 +111,7 @@ public class GiveSoul : MonoBehaviour
     {
         if (playerStats.hasKey && isKeyNPC && !hasGivenSoul)
         {
-            playerStats.uiManager.UpdateSoulAmount(1);
+            playerStats.uiManager.UpdateSoulAmount();
             hasGivenSoul = true;
         }
     }

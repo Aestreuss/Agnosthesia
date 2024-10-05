@@ -13,7 +13,7 @@ public class PlayerStats : MonoBehaviour
         if (collision.CompareTag("Collectable"))
         {
             soulsCollected += 1;
-            uiManager.UpdateSoulAmount(soulsCollected);
+            uiManager.UpdateSoulAmount();
             Destroy(collision.gameObject);
         }
         

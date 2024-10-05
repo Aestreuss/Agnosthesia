@@ -12,10 +12,10 @@ public class UIManager : MonoBehaviour
     public GameObject keyImage;
     public bool key;
 
-    public void UpdateSoulAmount(int soulsAmount)
+    public void UpdateSoulAmount()
     {
         soulAmount += 1;
-        soulAmount_Text.text = "Souls: " + soulsAmount.ToString();       
+        soulAmount_Text.text = "Souls: " + soulAmount.ToString();       
     }
 
     public void KeyFound(bool keyCollected)
