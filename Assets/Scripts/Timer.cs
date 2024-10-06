@@ -36,6 +36,11 @@ public class Timer : MonoBehaviour
         }
     }
 
+    public void AddTime(int time)
+    {
+        timeValue += 10;
+    }
+
     void DisplayTime(float timeToDisplay)
     {
         if(timeToDisplay < 0)

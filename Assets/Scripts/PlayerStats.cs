@@ -7,6 +7,7 @@ public class PlayerStats : MonoBehaviour
     public int soulsCollected;
     public UIManager uiManager;
     public bool hasKey;
+    public Timer timer;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,6 +16,7 @@ public class PlayerStats : MonoBehaviour
             soulsCollected += 1;
             uiManager.UpdateSoulAmount();
             Destroy(collision.gameObject);
+            timer.AddTime(10);
         }
         
         if (collision.CompareTag("Key"))
