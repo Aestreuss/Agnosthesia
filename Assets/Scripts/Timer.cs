@@ -7,11 +7,12 @@ public class Timer : MonoBehaviour
 {
     public float timeValue = 60; //the amount of time it will be counting down from 
     public TextMeshProUGUI timerText;
-    public bool timerIsRunning = false;
+    public bool timerIsRunning = false; //sets the timer running to false on default
 
     private void Start()
     {
         timerIsRunning = true;
+        //timer will run once you are in game
     }
 
     // Update is called once per frame
@@ -28,6 +29,7 @@ public class Timer : MonoBehaviour
             {
                 timeValue = 0;
                 timerIsRunning = false;
+                //timer gets set back to false once timer has ran out
             }
 
             DisplayTime(timeValue);
@@ -43,6 +45,7 @@ public class Timer : MonoBehaviour
         else if (timeToDisplay > 0)
         {
             timeToDisplay += 1;
+            //this is to make sure when the timer gets down to the final milliseconds it doesn't just display zero. (This works for seconds) 
         }
 
 
