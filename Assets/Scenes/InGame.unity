@@ -448,6 +448,7 @@ GameObject:
   - component: {fileID: 105428934}
   - component: {fileID: 105428933}
   - component: {fileID: 105428932}
+  - component: {fileID: 105428935}
   m_Layer: 0
   m_Name: Soul (3)
   m_TagString: Collectable
@@ -567,6 +568,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &105428935
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105428931}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &208976153
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +734,7 @@ GameObject:
   - component: {fileID: 221440042}
   - component: {fileID: 221440041}
   - component: {fileID: 221440040}
+  - component: {fileID: 221440043}
   m_Layer: 0
   m_Name: Soul (4)
   m_TagString: Collectable
@@ -831,6 +854,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &221440043
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221440039}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &416275043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,6 +1767,7 @@ GameObject:
   - component: {fileID: 576294617}
   - component: {fileID: 576294616}
   - component: {fileID: 576294615}
+  - component: {fileID: 576294618}
   m_Layer: 0
   m_Name: Soul (9)
   m_TagString: Collectable
@@ -1842,6 +1887,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &576294618
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576294614}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &595608067
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,6 +2273,7 @@ GameObject:
   - component: {fileID: 621683964}
   - component: {fileID: 621683963}
   - component: {fileID: 621683962}
+  - component: {fileID: 621683965}
   m_Layer: 0
   m_Name: Soul (8)
   m_TagString: Collectable
@@ -2326,6 +2393,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &621683965
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621683961}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &711652228
 GameObject:
   m_ObjectHideFlags: 0
@@ -2708,6 +2796,7 @@ GameObject:
   - component: {fileID: 923672837}
   - component: {fileID: 923672836}
   - component: {fileID: 923672835}
+  - component: {fileID: 923672838}
   m_Layer: 0
   m_Name: Soul (6)
   m_TagString: Collectable
@@ -2827,6 +2916,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &923672838
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923672834}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &954938273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3059,6 +3169,7 @@ GameObject:
   - component: {fileID: 1212320737}
   - component: {fileID: 1212320736}
   - component: {fileID: 1212320735}
+  - component: {fileID: 1212320738}
   m_Layer: 0
   m_Name: Soul (11)
   m_TagString: Collectable
@@ -3178,6 +3289,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1212320738
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212320734}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1253375474
 GameObject:
   m_ObjectHideFlags: 0
@@ -3725,6 +3857,7 @@ GameObject:
   - component: {fileID: 1366552500}
   - component: {fileID: 1366552499}
   - component: {fileID: 1366552498}
+  - component: {fileID: 1366552501}
   m_Layer: 0
   m_Name: Soul (10)
   m_TagString: Collectable
@@ -3844,6 +3977,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1366552501
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366552497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1377695388
 GameObject:
   m_ObjectHideFlags: 0
@@ -4348,6 +4502,7 @@ GameObject:
   - component: {fileID: 1506747918}
   - component: {fileID: 1506747917}
   - component: {fileID: 1506747916}
+  - component: {fileID: 1506747919}
   m_Layer: 0
   m_Name: Soul (5)
   m_TagString: Collectable
@@ -4467,6 +4622,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1506747919
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506747915}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1533392792
 GameObject:
   m_ObjectHideFlags: 0
@@ -4478,6 +4654,7 @@ GameObject:
   - component: {fileID: 1533392795}
   - component: {fileID: 1533392794}
   - component: {fileID: 1533392793}
+  - component: {fileID: 1533392796}
   m_Layer: 0
   m_Name: Soul (1)
   m_TagString: Collectable
@@ -4597,6 +4774,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1533392796
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533392792}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1559996485
 GameObject:
   m_ObjectHideFlags: 0
@@ -8317,6 +8515,7 @@ GameObject:
   - component: {fileID: 1861437607}
   - component: {fileID: 1861437606}
   - component: {fileID: 1861437605}
+  - component: {fileID: 1861437608}
   m_Layer: 0
   m_Name: Soul
   m_TagString: Collectable
@@ -8430,12 +8629,33 @@ Transform:
   m_GameObject: {fileID: 1861437604}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.27, y: -2.66, z: 0.014285309}
+  m_LocalPosition: {x: 1.27, y: -2.66, z: 0.01428531}
   m_LocalScale: {x: 0.06, y: 0.06, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1861437608
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861437604}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1921160085
 GameObject:
   m_ObjectHideFlags: 0
@@ -38211,6 +38431,7 @@ GameObject:
   - component: {fileID: 2007424009}
   - component: {fileID: 2007424008}
   - component: {fileID: 2007424007}
+  - component: {fileID: 2007424010}
   m_Layer: 0
   m_Name: Soul (2)
   m_TagString: Collectable
@@ -38330,6 +38551,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2007424010
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007424006}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2035177469
 GameObject:
   m_ObjectHideFlags: 0
@@ -38341,6 +38583,7 @@ GameObject:
   - component: {fileID: 2035177472}
   - component: {fileID: 2035177471}
   - component: {fileID: 2035177470}
+  - component: {fileID: 2035177473}
   m_Layer: 0
   m_Name: Soul (7)
   m_TagString: Collectable
@@ -38460,6 +38703,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1189109632}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2035177473
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035177469}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b327bb17899d03c4e9c2311f1cd9fbec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2051476751
 GameObject:
   m_ObjectHideFlags: 0
