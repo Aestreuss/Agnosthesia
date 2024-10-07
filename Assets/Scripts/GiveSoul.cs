@@ -18,7 +18,7 @@ public class GiveSoul : MonoBehaviour
     public bool playerIsClose; //checks for when the player is in range
 
     PlayerMovement playerMovement; //references the player script
-    PlayerStats playerStats; 
+    PlayerStats playerStats;
 
     public GameObject interactGUI;
     public bool interactClose;
