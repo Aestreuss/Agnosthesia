@@ -16,6 +16,7 @@ public class NPC : MonoBehaviour
     public bool playerIsClose; //checks for when the player is in range
 
     PlayerMovement playerMovement; //references the player script
+    public Timer timer;
 
     public GameObject interactGUI;
     public bool interactClose;
@@ -37,6 +38,7 @@ public class NPC : MonoBehaviour
                 StartCoroutine (Typing());
 
                 playerMovement.canMove = false; //stops player from moving
+                timer.timerIsRunning = false;
             }
         }
 
@@ -88,6 +90,7 @@ public class NPC : MonoBehaviour
         {
             zeroText();
             playerMovement.canMove = true; //allows player to move again
+            timer.timerIsRunning = true;
         }
     }
 
