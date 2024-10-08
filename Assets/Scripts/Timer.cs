@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class Timer : MonoBehaviour
 {
     public float timeValue = 60; //the amount of time it will be counting down from 
@@ -35,6 +36,9 @@ public class Timer : MonoBehaviour
             DisplayTime(timeValue);
         }
     }
+
+
+
 
     public void AddTime(int time)
     {
