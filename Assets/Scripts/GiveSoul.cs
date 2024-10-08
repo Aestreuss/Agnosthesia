@@ -19,6 +19,7 @@ public class GiveSoul : MonoBehaviour
 
     PlayerMovement playerMovement; //references the player script
     PlayerStats playerStats;
+    public Timer timer;
 
     public GameObject interactGUI;
     public bool interactClose;
@@ -53,6 +54,7 @@ public class GiveSoul : MonoBehaviour
                 StartCoroutine(Typing(currentDialogue));
 
                 playerMovement.canMove = false; //stops player from moving
+                timer.timerIsRunning = false;
             }
         }
 
@@ -104,6 +106,7 @@ public class GiveSoul : MonoBehaviour
             zeroText();
             playerMovement.canMove = true; //allows player to move again
             GiveSoulFromDialogue();
+            timer.timerIsRunning = true;
         }
     }
 
