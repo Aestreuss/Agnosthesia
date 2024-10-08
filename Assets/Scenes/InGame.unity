@@ -2421,7 +2421,7 @@ MonoBehaviour:
     closer to that goal.
   altDialogue:
   - '[They watch you, slightly amused]'
-  - Ah, so that's where it went.
+  - Ah. so that's where it went.
   - Thank you. Take this soul I've been keeping around.
   - Now off you go. Be safe.
   contButton: {fileID: 1440547363}
@@ -41549,7 +41549,7 @@ MonoBehaviour:
   dialogueText: {fileID: 545275380}
   dialogue:
   - '[It doesn''t respond to you walking up to it.]'
-  - '[It seems to be looking at something across from it.]'
+  - '[Upon closer inspection, It seems to be looking at something across from it.]'
   - '[Best go check it out]'
   contButton: {fileID: 2096062885}
   wordspeed: 0.02
