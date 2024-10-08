@@ -42,7 +42,7 @@ public class Timer : MonoBehaviour
 
     public void AddTime(int time)
     {
-        timeValue += 15;
+        timeValue += 10;
     }
 
     void DisplayTime(float timeToDisplay)

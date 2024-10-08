@@ -16,7 +16,7 @@ public class PlayerStats : MonoBehaviour
             soulsCollected += 1;
             uiManager.UpdateSoulAmount();
             Destroy(collision.gameObject);
-            timer.AddTime(15);
+            timer.AddTime(10);
         }
         
         if (collision.CompareTag("Key"))

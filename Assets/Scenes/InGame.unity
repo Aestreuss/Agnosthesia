@@ -646,7 +646,7 @@ Transform:
   m_GameObject: {fileID: 126170946}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.55, y: -1.88, z: 0.014285309}
+  m_LocalPosition: {x: 1.55, y: -1.94, z: 0.014285309}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1809,13 +1809,11 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1377695388}
   dialogueText: {fileID: 1447063477}
   dialogue:
-  - '[They don''t respond to you standing there.]'
-  - '[But they seem to be staring at something across from them.]'
-  - ........mn
+  - Why do you look so weird? Are you sick?
+  - Anyways, hello there
   contButton: {fileID: 796982861}
   wordspeed: 0.02
   playerIsClose: 0
-  timer: {fileID: 2100535172}
   interactGUI: {fileID: 1289347669}
   interactClose: 0
 --- !u!212 &523662266
@@ -1858,7 +1856,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 10
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1879,7 +1877,7 @@ Transform:
   m_GameObject: {fileID: 523662262}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.08, y: 22.09, z: 0}
+  m_LocalPosition: {x: 15.68, y: 21.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2054,7 +2052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3701a38cc320864ebdd19c306a615ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.5
   canMove: 1
 --- !u!212 &555827839
 SpriteRenderer:
@@ -2415,7 +2413,7 @@ MonoBehaviour:
     closer to that goal.
   altDialogue:
   - Ah, so that's where it went.
-  - Thank you. Now get going, I don't recommend staying here long
+  - Thank you. Take this soul I've been keeping around.
   contButton: {fileID: 1440547363}
   wordspeed: 0.03
   playerIsClose: 0
@@ -3067,7 +3065,7 @@ Transform:
   m_GameObject: {fileID: 775520297}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.44, y: 1.1, z: 0.014285309}
+  m_LocalPosition: {x: -5.46, y: 4.07, z: 0.014285309}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3535,7 +3533,7 @@ Transform:
   m_GameObject: {fileID: 995593448}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.53, y: 8.11, z: 0.014285309}
+  m_LocalPosition: {x: -1.45, y: 0.08, z: 0.014285309}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3833,7 +3831,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 4, z: 0}
+  - first: {x: -2, y: 4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -3863,7 +3861,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -6, y: 7, z: 0}
+  - first: {x: -5, y: 6, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -3884,6 +3882,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 8, y: 8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -9, y: 10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -3954,16 +3962,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -7, y: 14, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: 0, y: 14, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -41296,7 +41294,6 @@ GameObject:
   - component: {fileID: 2108900365}
   - component: {fileID: 2108900364}
   - component: {fileID: 2108900366}
-  - component: {fileID: 2108900367}
   m_Layer: 0
   m_Name: Key
   m_TagString: Key
@@ -41344,7 +41341,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 14ce02a31bd13574e98792a5227b5541, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -41416,27 +41413,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
---- !u!95 &2108900367
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2108900363}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f7f6d03e2fa0de242b01dc1180d90dc6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2127382396
 GameObject:
   m_ObjectHideFlags: 0
@@ -41497,7 +41473,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 10
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -41518,7 +41494,7 @@ Transform:
   m_GameObject: {fileID: 2127382396}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.02, y: 4.44, z: 0}
+  m_LocalPosition: {x: -0.52, y: 4.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41540,19 +41516,11 @@ MonoBehaviour:
   dialoguePanel: {fileID: 31742831}
   dialogueText: {fileID: 545275380}
   dialogue:
-  - You must be wondering where you are.
-  - (stare)
-  - Well, can't say much besides the fact this is a nightmare. I know, doesn't look
-    the part.
-  - But, trust me. You gotta get out of here. How? Just collect 13 Souls, they look
-    like this floaty orb next to me.
-  - You can find them on top of these altar looking things, they kinda just float
-    around.
-  - Good luck.
+  - 'hello there friend '
+  - 'what is up lmao '
   contButton: {fileID: 2096062885}
   wordspeed: 0.02
   playerIsClose: 0
-  timer: {fileID: 2100535172}
   interactGUI: {fileID: 74714398}
   interactClose: 0
 --- !u!61 &2127382400
