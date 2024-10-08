@@ -13,6 +13,12 @@ public class PlayerMovement : MonoBehaviour
 
     public bool canMove = true;
 
+    Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     private void Awake()
     {
@@ -25,6 +31,10 @@ public class PlayerMovement : MonoBehaviour
         {
             horizontal = Input.GetAxis("Horizontal");
             vertical = Input.GetAxis("Vertical");
+
+            anim.SetFloat("horizontal", horizontal);
+            anim.SetFloat("vertical", vertical);
+
             transform.position += new Vector3(horizontal, vertical, 0) * Time.deltaTime * speed;
         }
 
