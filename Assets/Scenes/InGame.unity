@@ -2170,7 +2170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soulsCollected: 0
   uiManager: {fileID: 416275044}
-  hasKey: 0
+  hasKey: 1
   timer: {fileID: 2100535172}
 --- !u!95 &555827843
 Animator:
@@ -2412,8 +2412,10 @@ MonoBehaviour:
   - Well find me a Memory Fragment and I can provide you something that gets you
     closer to that goal.
   altDialogue:
+  - '[They watch you, slightly amused]'
   - Ah, so that's where it went.
   - Thank you. Take this soul I've been keeping around.
+  - Now off you go. Be safe.
   contButton: {fileID: 1440547363}
   wordspeed: 0.03
   playerIsClose: 0

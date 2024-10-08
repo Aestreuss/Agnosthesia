@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class Timer : MonoBehaviour
@@ -34,6 +35,11 @@ public class Timer : MonoBehaviour
             }
 
             DisplayTime(timeValue);
+        }
+
+        if (timeValue < 0)
+        {
+            SceneManager.LoadScene("Retry");
         }
     }
 
