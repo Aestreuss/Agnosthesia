@@ -25,12 +25,13 @@ public class NPC : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.F) && playerIsClose)
         {
-            if (dialoguePanel.activeInHierarchy)
-            {
-                zeroText();
+            //if (dialoguePanel.activeInHierarchy)
+            //{
+                //zeroText();
                 
-            }
-            else
+            //}
+            //else
+            if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
                 dialogueText.text = "";
@@ -61,9 +62,7 @@ public class NPC : MonoBehaviour
     {
         dialogueText.text = "";
         index = 0;
-        dialoguePanel.SetActive(false);
-
-        
+        dialoguePanel.SetActive(false);  
 
     }
     IEnumerator Typing()

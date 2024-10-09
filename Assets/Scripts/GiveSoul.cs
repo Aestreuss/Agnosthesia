@@ -32,12 +32,13 @@ public class GiveSoul : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.F) && playerIsClose)
         {
-            if (dialoguePanel.activeInHierarchy)
-            {
-                zeroText();
+            //if (dialoguePanel.activeInHierarchy)
+            //{
+            //    zeroText();
 
-            }
-            else
+            //}
+            //else
+            if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
                 dialogueText.text = "";
@@ -118,6 +119,7 @@ public class GiveSoul : MonoBehaviour
             hasGivenSoul = true;
         }
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {

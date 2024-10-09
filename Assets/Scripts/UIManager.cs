@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
     public void UpdateSoulAmount()
     {
         soulAmount += 1;
-        soulAmount_Text.text = "Souls: " + soulAmount.ToString();       
+        soulAmount_Text.text = "Souls: " + soulAmount.ToString() + " / 13";       
     }
 
     public void KeyFound(bool keyCollected)
